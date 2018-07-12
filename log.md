@@ -22,3 +22,27 @@ Introduction: me and my junior son @catfield123 are participating this challenge
 **TODO:**
 - [Mixed Precision Training](https://arxiv.org/abs/1710.03740)
 - [Mixed Precision Training of Convolutional Neural Networks using Integer Operations](https://arxiv.org/abs/1802.00930)
+
+### Day 1: July 12, 2018
+
+**Today's Progress:**
+
+- Reading papers we've got clear following ideas
+    - Both types of MANN were invented in DeepMind:
+        - NTM (Neural Turing Machine) by Alex Graves et. al. 2014
+        - DNC (Differential Neural Computer) by Alex Graves et. al. 2016
+    - Being a much improved direct descendant of NTM, the DNC adds:
+        - new attention mechanisms (addressing via soft/hard attention)
+        - dynamically allocated memory
+        - memory links
+
+**Hours spent:** 1.0
+
+**Thoughts:** Is there one-shot learning implementation which is based on DNC instead of NTM?
+
+**TODO:**
+- [DNC Nature 2016 article](https://www.gwern.net/docs/rl/2016-graves.pdf)
+- [DNC slides](http://people.idsia.ch/~rupesh/rnnsymposium2016/slides/graves.pdf)
+- [Mixed Precision Training](https://arxiv.org/abs/1710.03740)
+- [Mixed Precision Training of Convolutional Neural Networks using Integer Operations](https://arxiv.org/abs/1802.00930)
+ 
